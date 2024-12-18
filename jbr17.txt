@@ -1,0 +1,188 @@
+openjdk 17.0.8.1 2023-08-24
+OpenJDK Runtime Environment JBR-17.0.8.1+7-1080.1-nomod (build 17.0.8.1+7-b1080.1)
+OpenJDK 64-Bit Server VM JBR-17.0.8.1+7-1080.1-nomod (build 17.0.8.1+7-b1080.1, mixed mode)
+
+Set threshold on G1 Old Gen: 2040109440 bytes
+Current usage: 0 bytes
+Starting memory allocation...
+
+Allocation cycle 100
+Strong references: 55MB
+Soft references: 45MB
+Live soft references: 45MB
+
+Allocation cycle 200
+Strong references: 106MB
+Soft references: 94MB
+Live soft references: 94MB
+
+Allocation cycle 300
+Strong references: 152MB
+Soft references: 148MB
+Live soft references: 148MB
+
+Allocation cycle 400
+Strong references: 208MB
+Soft references: 192MB
+Live soft references: 192MB
+
+Allocation cycle 500
+Strong references: 260MB
+Soft references: 240MB
+Live soft references: 240MB
+
+Allocation cycle 600
+Strong references: 308MB
+Soft references: 292MB
+Live soft references: 292MB
+
+Allocation cycle 700
+Strong references: 356MB
+Soft references: 344MB
+Live soft references: 344MB
+
+Allocation cycle 800
+Strong references: 403MB
+Soft references: 397MB
+Live soft references: 397MB
+
+Allocation cycle 900
+Strong references: 454MB
+Soft references: 446MB
+Live soft references: 446MB
+
+Memory collection threshold exceeded!
+
+Allocation cycle 1000
+Strong references: 502MB
+Soft references: 498MB
+Live soft references: 498MB
+Heap Memory Usage: init = 1073741824(1048576K) used = 2079250976(2030518K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 502MB
+Soft references: 498MB
+Live soft references: 498MB
+After GC: false
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 1101456560(1075641K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 522MB
+Soft references: 517MB
+Live soft references: 9MB
+After GC: true
+
+Allocation cycle 1100
+Strong references: 549MB
+Soft references: 551MB
+Live soft references: 41MB
+
+Allocation cycle 1200
+Strong references: 597MB
+Soft references: 603MB
+Live soft references: 93MB
+
+Allocation cycle 1300
+Strong references: 645MB
+Soft references: 655MB
+Live soft references: 145MB
+
+Allocation cycle 1400
+Strong references: 697MB
+Soft references: 703MB
+Live soft references: 193MB
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 2057892720(2009660K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 752MB
+Soft references: 738MB
+Live soft references: 228MB
+After GC: false
+
+Allocation cycle 1500
+Strong references: 757MB
+Soft references: 743MB
+Live soft references: 233MB
+
+Allocation cycle 1600
+Strong references: 816MB
+Soft references: 784MB
+Live soft references: 27MB
+
+Allocation cycle 1700
+Strong references: 864MB
+Soft references: 836MB
+Live soft references: 79MB
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 2104043064(2054729K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 891MB
+Soft references: 873MB
+Live soft references: 116MB
+After GC: false
+
+Allocation cycle 1800
+Strong references: 907MB
+Soft references: 893MB
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 1934043232(1888714K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 907MB
+Soft references: 893MB
+Live soft references: 14MB
+Live soft references: 14MB
+After GC: true
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 2112307344(2062800K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 950MB
+Soft references: 939MB
+Live soft references: 60MB
+After GC: false
+
+Allocation cycle 1900
+Strong references: 953MB
+Soft references: 947MB
+
+Memory collection threshold exceeded!
+Live soft references: 68MB
+Heap Memory Usage: init = 1073741824(1048576K) used = 2143761024(2093516K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 953MB
+Soft references: 947MB
+Live soft references: 68MB
+After GC: true
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 2126981824(2077130K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 982MB
+Soft references: 984MB
+Live soft references: 0MB
+After GC: false
+
+Allocation cycle 2000
+Strong references: 1003MB
+Soft references: 997MB
+
+Memory collection threshold exceeded!
+Live soft references: 13MB
+Heap Memory Usage: init = 1073741824(1048576K) used = 2133279696(2083280K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 1003MB
+Soft references: 997MB
+Live soft references: 13MB
+After GC: true
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 2137471224(2087374K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 1018MB
+Soft references: 1010MB
+OutOfMemoryError occurred!
+Live soft references: 0MB
+After GC: true
+
+Memory collection threshold exceeded!
+Heap Memory Usage: init = 1073741824(1048576K) used = 2143760808(2093516K) committed = 2147483648(2097152K) max = 2147483648(2097152K)
+Strong references: 1021MB
+Soft references: 1010MB
+Live soft references: 0MB
+After GC: true
+Final strong references: 1021MB
+Final soft references: 1010MB
+Final live soft references: 0MB

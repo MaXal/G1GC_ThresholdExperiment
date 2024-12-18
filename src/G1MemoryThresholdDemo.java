@@ -11,7 +11,7 @@ public class G1MemoryThresholdDemo {
     private static final List<byte[]> strongReferences = new ArrayList<>();
     private static final List<SoftReference<byte[]>> softReferences = new ArrayList<>();
     private static final int ALLOCATION_SIZE = 1024 * 1024; // 1MB
-    private static final Random random = new Random();
+    private static final Random random = new Random(0);
 
     private static final long MEM_THRESHOLD = 5 /*MB*/ * 1024 * 1024;
 
@@ -90,7 +90,7 @@ public class G1MemoryThresholdDemo {
                     System.out.println("Soft references: " + softReferences.size() + "MB");
                     System.out.println("Live soft references: " + countLiveSoftReferences() + "MB");
 
-                    Thread.sleep(300);
+                    Thread.sleep(500);
                 }
             }
         } catch (OutOfMemoryError e) {
